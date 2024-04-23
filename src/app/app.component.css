@@ -1,0 +1,33 @@
+/* AppComponent's private CSS styles */
+h1 {
+  margin-bottom: 10px; /* Adjusted margin for a bit more space */
+  color: #000; /* Setting text color to black */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Making the title bold */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adding a subtle text shadow for emphasis */
+  text-align: center; /* Centering the text horizontally */
+}
+
+nav {
+  text-align: center; /* Aligning the buttons in the center */
+  margin-top: 50px; /* Adding margin to move the boxes down */
+}
+
+nav a {
+  padding: 0.5rem 1rem; /* Adjusting padding */
+  text-decoration: none;
+  margin: 10px; /* Adjusting margin */
+  display: inline-block;
+  background-color: #4400ff;
+  color: #fff;
+  border-radius: 8px; /* Making the buttons slightly rounded */
+}
+
+nav a:hover {
+  color: white;
+  background-color: #9b5bf5;
+}
+
+nav a:active {
+  background-color: #9b5bf5;
+}

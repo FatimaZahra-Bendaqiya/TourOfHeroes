@@ -1,0 +1,22 @@
+<button type="button"(click)="onShowVillain()">My Villains</button>
+<div *ngIf="(showVillain % 2)==1">
+  <ul>
+    <li
+      *ngFor="let name of names"
+      #villainName
+      (mouseenter)="onMouseEnter(villainName)"
+      (mouseleave)="onMouseOut(villainName)">
+      {{name}}
+    </li>
+  </ul>
+</div>
+
+<button type="button"(click)="onInput()">Add</button>
+<div *ngIf="(showInput%2) == 1">
+  <input type="text" #name placeholder="Villain name" (blur)="getName(name.value)"/> <br><br>
+  <input type="number" #id placeholder="Request id" (keyup.enter)="getId(id.valueAsNumber)" /><br><br>
+  <button type="submit"(click)="submit()">Submit</button>
+  <div *ngIf="submitted!=0">
+    {{submitmsg}}
+  </div>
+</div>

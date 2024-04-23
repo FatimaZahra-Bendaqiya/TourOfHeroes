@@ -1,0 +1,36 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+  color: #000;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: .5rem;
+}
+.hero-details {
+  background-color: #f0f0f0; /* Background color */
+  border: 2px solid #9b5bf5; /* Border */
+  border-radius: 5px; /* Border radius */
+  padding: 10px; /* Padding */
+  margin-bottom: 20px; /* Spacing */
+}
+.hero-name {
+  color: #9b5bf5; /* Color for hero name */
+  /* Additional styles for the hero name if needed */
+}
+button {
+  margin-top: 20px;
+  background-color: #9b5bf5;
+  padding: 1rem;
+  border-radius: 20px; /* Making the button oval */
+  font-size: 1rem;
+  color: white; /* Setting text color to white */
+}
+button:hover {
+  background-color: #7c3bbf;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
