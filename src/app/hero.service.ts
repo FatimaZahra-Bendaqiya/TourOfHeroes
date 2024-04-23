@@ -22,13 +22,11 @@ export class HeroService {
       this.messageService.add(`Action: fetched hero id=${id}`);
       return of(hero);
     } else {
-      // If hero is not found, return an empty observable
       return of(undefined);
     }
   }
 
   deleteHero(hero: Hero): Observable<Hero> {
-    // In a real application, you would make an HTTP delete request to delete the hero
     const index = HEROES.indexOf(hero);
     if (index !== -1) {
       HEROES.splice(index, 1);
