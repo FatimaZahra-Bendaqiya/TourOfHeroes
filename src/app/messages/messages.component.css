@@ -1,9 +1,8 @@
-/* MessagesComponent's private CSS styles */
 h2 {
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
-  margin-bottom: 4px; /* Adjusted margin to bring the h2 closer to the clear box */
+  margin-bottom: 4px;
 }
 
 .clear {
@@ -11,10 +10,10 @@ h2 {
   background-color: #4400ff;
   margin-bottom: 20px;
   padding: 1rem;
-  border-radius: 50px; /* Make border-radius half of the height to create an oval shape */
+  border-radius: 50px;
   font-size: 1rem;
-  display: inline-block; /* Ensure the box only takes the necessary space */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .clear:hover {
